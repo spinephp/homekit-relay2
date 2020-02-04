@@ -1,0 +1,29 @@
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "/opt/esp-open-sdk/lx106-hal/include",
+                "../../external_libs/wolfssl/**",
+                "../../external_libs/cJSON/**",
+                "../../external_libs/homekit/**",
+                "../../external_libs/wifi_config_haa/**",
+                "../../sdk/esp-open-rtos/include/**",
+                "../../sdk/esp-open-rtos/core/include/**",
+                "../../sdk/esp-open-rtos/lwip/src/include/**",
+                "../../sdk/esp-open-rtos/lwip/lwip//src/include/**",
+                "../../sdk/esp-open-rtos/FreeRTOS//Source/portable/esp8266/**",
+                "../../sdk/esp-open-rtos/FreeRTOS//Source/include/**",
+                "../../sdk/esp-open-rtos/libc/xtensa-lx106-elf/include/**",
+                "../../sdk/esp-open-rtos/extras/**"
+            ],
+            "defines": [],
+            "compilerPath": "/usr/bin/gcc",
+            "cStandard": "c11",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "clang-x64"
+        }
+    ],
+    "version": 4
+}
